@@ -1,56 +1,69 @@
+<!-- HTML elements that used here are: doctype, html, head, body, meta, title
+h1, h2, h3, p, link, ul, img, a
+-->
 <!doctype html>
-<html>
+<html lang="en">
 
+<!-- This is a semantic container. -->
 <head>
    	<meta charset = "utf-8">
    	<meta name = "viewport" content = "width = device - width">
    	<title>Odno Developer</title>
-   	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
-   	<link href = "style.css" rel = "stylesheet" type = "text/css"/>
+   	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+   	<link href = "style.css" rel = "stylesheet" type = "text/css">
 </head>
 
 <body>
-   	<header>
-		<div>
-			<h1>Odno Developer</h1>
-			<h2>Software Engineer</h2>
+   	<header class="dark-background">
+		<div class="wrapper">
+			<h1 class="text-centered">Odno Developer</h1>
+			<h2 class="text-centered"><i>Software Engineer</i></h2>
 		</div>
    	</header>
 	
-	<main>
-		<div>
-			<img src = "images/image.jpg"
-			     class = "image-square">
-		</div>
+	<!-- Main container has three section containers. -->
+	<main class="light-background">
 		
 		<section>
-			<h2>INTRODUCTION</h2>
-			<p>Hi, I'm Odno Myagmar</p>
-			<p>I am a Software Engineer living in Brookfield, Wisconsin.</p>
-			<p>Please look at my portfolio and feel free to contact me</p>
+			<h3>INTRODUCTION</h3>
+			<div class="wrapper">
+				<img src = "images/image.jpg" width="250" height="150" alt="coding-language"
+					 class = "image-square center">
+			</div>
+			<p>Hi, I'm Odno Myagmar. I am a Software Engineer living in Brookfield, Wisconsin.</p>
+			<p>Please look at my portfolio and feel free to contact me.</p>
 		</section>
 		
 		<section>
-			<h2>ABOUT ME</h2>
-			<p>Learning foreign lnaguages was one of my hobbies, but later it became my profession. Although it is challenging to change 
-			your career and start over from scratch, I believe that my experience and background would help me to learn another 'language'  
-			specifically, programming languages.</p>
-			<p>As a student at Thinkful, I have begun my joirney to becoming a Software Engineer and couldn't be happier.</p>
-			<p>If you are looking to hire a Software Engineer, please reach out. I am so excited to work with other developers on projects.</p>
+			<h3>ABOUT ME</h3>
+			<p>Learning foreign lnaguages was one of my hobbies, and later it became my profession. It is challenging to change 
+			your career and start over different one from scratch, however, I believe that my current experience and passion for
+			gaining new skills would help me to learn another 'language', specifically, a coding language.</p>
+			<p>As a student at Thinkful, I have already begun my journey to taking challenges in my next career. My multilingual 
+			ability and excellent communication skills, as well as, the knowledge gained from the Engineering Flex course along
+			with my enthasiasm for mastering the profession would make me a great asset to any organization.</p>
+			<p>If you are looking to hire someone who has no work experience but is eager to learn and has a positive attitute, 
+			please reach out. I am so excited to work with other developers on various projects.</p>
 		</section>
 		
 		<section>
-			<h2>CONTACT</h2>
-			<p>I'd love to hear from you! Please feel free to contact or follow me</p>
-			<a href = "https://github.com/odnodeveloper/my-portfolio">LinkedIn</a>
-			<a href = "https://github.com/odnodeveloper/my-portfolio">GitHub</a>
+			<h3>CONTACT</h3>
+			<p>I'd love to hear from you! Please feel free to contact or follow me:</p>
+			<ul>
+				<li><a href = "https://www.linkedin.com/in/myagmar-odonchimeg-92861a10/">LinkedIn</a></li>
+				<li><a href = "https://github.com/odnodeveloper/my-portfolio">GitHub</a></li>
+				<li><a href = "mailto:om12odnoo@gmail.com?subject=Email%20Subject%20Here">Email Me</a></li>
+			</ul>
 		</section>
-		
+
 	</main>
 	
-   	<footer>
-		<div>
-			<p>Copyright</p>
+	<!-- Footer container stats here. -->
+   	<footer class="dark-background">
+		<div class="wrapper">
+			<p class="cp-text" id="footer-text">
+				© Copyright 2022 OdnoDeveloper. All rights reserved.
+			</p>
 		</div>
    	</footer>
 
